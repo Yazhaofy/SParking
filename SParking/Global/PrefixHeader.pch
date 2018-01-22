@@ -1,0 +1,73 @@
+//
+//  PrefixHeader.pch
+//  SParking
+//
+//  Created by TXiMac on 2018/1/5.
+//  Copyright © 2018年 Yazhao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//自动布局
+#import <Masonry/Masonry.h>
+
+//网络
+#import <AFNetworking/AFNetworking.h>
+
+#import <EasyNavigation/EasyNavigation.h>
+
+//指示器
+#import <MBProgressHUD/MBProgressHUD.h>
+
+//信鸽推送
+#import <QQ_XGPush/XGPush.h>
+
+//自带高德地图
+#import <MapKit/MapKit.h>
+
+//百度地图base相关
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
+
+//百度地图地图功能
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+
+//百度地图检索功能
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>
+
+//百度地图云检索功能
+#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>
+
+//百度地图周边雷达功能
+#import <BaiduMapAPI_Radar/BMKRadarComponent.h>
+
+//百度地图定位功能
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>
+
+//百度地图计算工具
+#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>
+
+//轮播
+#import <SDCycleScrollView/SDCycleScrollView.h>
+
+//短信验证码按钮
+#import <SDCountDownButton/SDCountDownButton.h>
+
+#import "TYFWaveButton.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIColor+Extend.h"
+#import "NSString+Extend.h"
+#import "NSDictionary+Extend.h"
+#import "NSMutableDictionary+Extend.h"
+
+#import "LocationService.h"
+#import "NetworkManager.h"
+//尺寸相关定义
+#define kScreen_height  [[UIScreen mainScreen]bounds].size.height
+#define kScreen_width   [[UIScreen mainScreen]bounds].size.width
+
+//颜色相关定义
+#define ThemeColor UIColor.orangeColor
+#endif /* PrefixHeader_pch */
